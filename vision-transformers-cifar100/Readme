@@ -1,0 +1,2 @@
+1 . 准备好CIFAR-100数据集在data目录下，或者修改train_cifar100.py代码为自动下载。    
+2 . 根据需求运行训练命令，例如：python train_cifar100.py --net vit
