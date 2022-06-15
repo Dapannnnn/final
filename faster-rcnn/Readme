@@ -1,0 +1,7 @@
+1 . 在data文件夹下放入VOC 2007数据   
+2 . 在data/pretrained_model下放入与训练权重文件   
+3 . 安装依赖包   
+4 . cd lib   
+    python setup.py build develop
+5 . 根据需求执行训练命令，例如：
+    python trainval_net.py --dataset pascal_voc --net vgg16 --bs 4 --lr 1e-4 --cuda
